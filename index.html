@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <title>FOODONATE</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lux/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-hVpXlpdRmJ+uXGwD5W6HZMnR9ENcKVRn855pPbuI/mwPIEKAuKgTKgGksVGmlAvt" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>    
+
+    <!--Logo and responsive nav-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main-navbar">
+        <img src="images/foodonate5.png">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <!--Nav items-->
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#card-main-back">About us</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#card-main-back-two">Donate</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-success my-2 my-sm-0" id="nav-btn" type="submit">
+                    Sign In
+                </button>
+            </form>
+        </div>
+    </nav>
+
+            <!--First frame (video background)-->
+    
+    <!-- <header>
+        <div class="overlay"></div>
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+            </video>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <p class="h1" id="h1main">EAT FOR FREE. EAT TASTY. REDUCE FOODWASTE</p>
+                    <button type="button" id="frame-btn" class="btn btn-primary btn-lg">Start ordering your meal</button><br></br>
+                </div>
+            </div>
+        </div>
+    </header> -->
+
+    <!--Image replacing-->
+
+    <div class="card bg-dark text-white" id="card-main-home-repl">
+        <img class="card-img" src="images/mainback.jpg" alt="Card image">
+        <div class="card-img-overlay" id="card-img-overlay-main">
+            <h5 class="card-title">EAT FOR FREE. EAT TASTY. REDUCE FOODWASTE</h5>
+            <button type="button" class="btn btn-primary" id="frame-btn-main">Let's order some food!</button>
+        </div>
+    </div>
+
+
+    <body id="body">
+
+        <!--Second frame (background with description)-->
+
+        <div class="card bg-dark text-white" id="card-main-back">
+            <img src="images/secondb3.png" class="card-img" alt="...">
+            <div class="card-img-overlay">
+                <h6 class="card-title">About the project</h6>
+                <h1 class="h1">Reduce waste means <br>end hunger for us</h1>
+                <p class="card-text">This is a wider card with supporting text <br>below as a natural lead-in to additional content.
+                    <br>This content is a little bit longer.</p>
+                <button type="button" class="btn btn-primary" id="frame-btn">More About Us</button>
+            </div>
+        </div>
+
+        <!--Third frame (Restaurant's Slider)-->
+
+        <blockquote class="blockquote text-center" id="center-text">
+            <p class="mb-0">Restaurants that work with us</p>
+            <h6 class="card-title">Thank to all these people, they make this a reality</h6>
+        </blockquote>
+
+        <div class="slider" id="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                </div>
+            </div>
+        </div>   
+        
+        <!--Fourth frame (Second background w/ description) -->
+
+        <div class="card bg-dark text-white" id="card-main-back-two">
+            <div class="card-img-overlay" id="card-img-overlay-two">
+                <h6 class="card-title">Become part of the project</h6>
+                <h1 class="h1">We want you in <br>the comunity</h1>
+                <p class="card-text">If you are insterested in donate food<br>
+                    or help us to keep battling hungryness,<br> you are welcomne
+                    to join our team.
+                    <br>This content is a little bit longer.</p>
+                <button type="button" class="btn btn-primary" id="frame-btn-two">I want to donate!</button>
+            </div>
+            <img src="images/back2back.png" class="card-img" alt="...">
+        </div>
+       
+        <!--Scripts-->
+
+        <script src="js/style.js"></script>
+        <script src="js/modernizr.custom.63321.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+        </script>
+
+        <!--Footer-->
+
+        <div class="footer">
+            <i class="far fa-registered"></i>
+            <p><em>Copyright 2019 Foodonate SF / @croweyesaround </em></p>
+        </div>
+
+    </body>
+</html>
